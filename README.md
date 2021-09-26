@@ -17,3 +17,17 @@ According to official documentation, Kubernetes, also known as K8s, is an open-s
 **Delete pod**
 `kubectl delete pod [pod-name]`
 
+
+### Defining a Pod using YAML
+
+`kubectl create -f [file-name] --save-config`
+
+`kubectl describe pod [pod-name]`
+
+`kubectl apply -f [file-name]`
+
+`kubectl exec [pod-name] -it sh`
+
+`kubectl edit -f [file-name]`
+
+`kubectl delete -f [file-name]`
