@@ -3,15 +3,17 @@
 ## What is Kubernetes?
 According to official documentation, Kubernetes, also known as K8s, is an open-source system for automating deployment, scaling, and management of containerized applications.
 
-##### Get all pods
+### Working with Pods using kubectl command
+
+**Get all pods**
 `kubectl get pods`
 
-##### Create New Pod
-`kubectl run my-nginx --image=nginx:alpine`
+**Create New Pod**
+`kubectl run [pod-name] --image=nginx:alpine`
 
-##### Forward Port
-`kubectl port-forward my-nginx 8080:80`
+**Forward Port**
+`kubectl port-forward [pod-name] 8080:80`
 
-##### Delete pod
-`kubectl delete pod my-nginx`
+**Delete pod**
+`kubectl delete pod [pod-name]`
 
