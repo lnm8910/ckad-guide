@@ -1,1 +1,1 @@
-# ckad-guide
+# Certified Kubernetes Application Developer (CKAD)
